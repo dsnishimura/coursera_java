@@ -1,5 +1,7 @@
 import edu.duke.*;
 
+
+
 public class HelloWorld {
 	public void runHello () {
 		FileResource res = new FileResource("hello_unicode.txt");
@@ -9,9 +11,9 @@ public class HelloWorld {
 	}
 	public static void main(String[] args) {
 		HelloWorld hw = new HelloWorld();
-		hw.runHello();
-	}
-	
-}
+		hw.runHello(); 
 
+	}
+	 
+}
 
