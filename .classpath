@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="intro/HelloWorld"/>
+	<classpathentry kind="src" path="Starter_Code/UCSDUnfoldingMaps/src"/>
+	<classpathentry kind="src" path="week_2/src"/>
+	<classpathentry kind="lib" path="intro/lib/apache-csv.jar"/>
+	<classpathentry kind="lib" path="intro/lib/courserajava.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/core.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/gluegen-rt-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/gluegen-rt-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/gluegen-rt-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/jogl-all-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/jogl-all-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/jogl-all-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/jogl-all-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/jogl-all-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/jogl-all.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/json4processing.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/libTUIO.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="Starter_Code/UCSDUnfoldingMaps/lib/unfolding.0.9.7-uscd.jar"/>
+	<classpathentry kind="output" path="Starter_Code/UCSDUnfoldingMaps/build"/>
+</classpath>

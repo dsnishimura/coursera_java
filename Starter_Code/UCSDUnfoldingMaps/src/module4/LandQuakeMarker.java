@@ -6,7 +6,7 @@ import processing.core.PGraphics;
 /** Implements a visual marker for land earthquakes on an earthquake map
  * 
  * @author UC San Diego Intermediate Software Development MOOC team
- * @author Your name here
+ * @author Thiago Nishimura
  *
  */
 public class LandQuakeMarker extends EarthquakeMarker {
@@ -33,6 +33,16 @@ public class LandQuakeMarker extends EarthquakeMarker {
 		// and how it is set in the EarthquakeMarker constructor
 		
 		// TODO: Implement this method
+		
+	
+		if((this.getMagnitude()) < (THRESHOLD_LIGHT)) { //for minor
+			pg.ellipse(x,y,5,5);
+		}else if((this.getMagnitude()) >= (THRESHOLD_MODERATE)){ //for moderate or higher
+			pg.ellipse(x,y,20,20);
+		}else {
+			pg.ellipse(x,y,10,10); //for light
+		}
+		
 		
 	}
 	
