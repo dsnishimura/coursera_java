@@ -6,7 +6,7 @@ import processing.core.PGraphics;
 /** Implements a visual marker for earthquakes on an earthquake map
  * 
  * @author UC San Diego Intermediate Software Development MOOC team
- * @author Your name here
+ * @author Thiago Nishimura
  *
  */
 public abstract class EarthquakeMarker extends CommonMarker
@@ -95,6 +95,15 @@ public abstract class EarthquakeMarker extends CommonMarker
 	{
 		// TODO: Implement this method
 		
+		String s = this.getTitle();
+		
+		pg.fill(255,255,255);
+		pg.rect(x, y, 300, 20);
+		
+		pg.fill(0,0,0);
+		pg.text(s,x,y,300,20);
+		
+		
 	}
 
 	
@@ -106,7 +115,7 @@ public abstract class EarthquakeMarker extends CommonMarker
 	 *  or predictive applications.
 	 */
 	public double threatCircle() {	
-		double miles = 20.0f * Math.pow(1.8, 2*getMagnitude()-5);
+		double miles = 20.0f * Math.pow(1.8, (2*getMagnitude()-5));
 		double km = (miles * kmPerMile);
 		return km;
 	}
@@ -131,6 +140,7 @@ public abstract class EarthquakeMarker extends CommonMarker
 	/*
 	 * getters for earthquake properties
 	 */
+	
 	
 	public float getMagnitude() {
 		return Float.parseFloat(getProperty("magnitude").toString());
